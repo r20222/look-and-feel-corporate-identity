@@ -4,10 +4,23 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
+Vini Mini user-story#11: Als ouder wil ik bij het openen van Mijn Vini Mini persoonlijk advies behorende bij de betreffende dag kunnen lezen, zodat de kans op een allergische reactie bij mijn kind kleiner wordt.
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
+
+Als je bent ingelogt op Vini Mini dan is dit de eerste pagina waar je terecht komt met een persoonlijk welkomstbericht, en een duidelijk geel notificatieblok met persoonlijk advies van die dag.
+
 <!-- Voeg een mooie poster visual toe 📸 -->
+
+Deze webpagina hieronder hoort bij user-story #11: Als ouder wil ik bij het openen van Mijn Vini Mini persoonlijk advies behorende bij de betreffende dag kunnen lezen, zodat de kans op een allergische reactie bij mijn kind kleiner wordt.
+
+### Desktop versie #11:
+![image](https://user-images.githubusercontent.com/101579892/203982716-4fbd715a-6f9d-433c-abe3-524e3fd6dfdd.png)
+
+### Mobiele versie #11:
+![image](https://user-images.githubusercontent.com/101579892/203982579-c701e38e-004b-456d-8687-d03bc534b085.png)
+
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 ## Kenmerken
