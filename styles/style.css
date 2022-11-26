@@ -171,11 +171,12 @@ h4{
 #certifiedB{
     padding:0px 30px;
     margin-right: 80px;
+    margin-bottom: 25px;
 }
 .footerul{
     list-style: none;
-    padding-top:0px;
     min-width: 195px;
+    margin-bottom: 25px;
 }
 footer > p{
     padding: 30px;
@@ -255,4 +256,5 @@ nav ul li:nth-child(9){
     display: flex;
     justify-content: space-evenly;
 }
+
 }
