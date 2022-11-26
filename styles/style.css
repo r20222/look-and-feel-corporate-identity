@@ -51,6 +51,12 @@ nav ul li:nth-child(8){
 nav ul li:nth-child(9){
     display:none;
 }
+nav ul li:nth-child(10){
+    display:none;
+}
+nav ul li:nth-child(11){
+    display:none;
+}
 nav > ul {
     list-style: none;
     display:flex;
@@ -201,7 +207,7 @@ nav ul li:nth-child(3){
     display:none;
 }
 nav ul li:nth-child(4){
-    display:block;
+    display:none;
 }
 nav ul li:nth-child(5){
     display:block;
@@ -216,6 +222,15 @@ nav ul li:nth-child(8){
     display:block;
 }
 nav ul li:nth-child(9){
+    display:block;
+}
+nav ul li:nth-child(10){
+    display:block;
+}
+nav ul li:nth-child(11){
+    display:block;
+}
+nav ul li:nth-child(12){
     display:block;
 }
 
