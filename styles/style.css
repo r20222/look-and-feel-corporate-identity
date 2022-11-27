@@ -62,7 +62,7 @@ nav > ul {
     margin-left:-40px;  
 }
 
-/* welkomstbericht */
+/* welkomstbericht index*/
 h1 {
     font-family: Montserrat;
     font-size: 2.3em;
@@ -70,6 +70,13 @@ h1 {
     color: var(--lichtblauw);
 }
 .welcome-message{
+    position:relative;
+    margin-top: 150px;
+}
+
+/* welkomstbericht agenda*/
+
+.welcome-message-agenda{
     position:relative;
     margin-top: 150px;
 }
@@ -246,7 +253,7 @@ nav ul li:nth-child(12){
     display:block;
 }
 
-/* welkomstbericht */
+/* welkomstbericht index*/
 #desktop-welcome{
     display:flex;
     margin-top: 180px;
@@ -256,6 +263,19 @@ nav ul li:nth-child(12){
     margin-top: 0px;
     margin-left: 30px;
     width:50%;
+}
+
+/* welkomstbericht agenda*/
+
+#desktop-welcome-agenda{
+    display:flex;
+    margin-top: 180px;
+}
+.welcome-message-agenda{
+    position:relative;
+    margin-top: 0px;
+    margin-left: 30px;
+    width:100%;
 }
 
 /* notificatieblok */
@@ -270,5 +290,46 @@ nav ul li:nth-child(12){
     display:flex;
     flex-direction:column;
     row-gap: 35px
+}
+
+/* kalender */
+
+.flexbox-calender{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+.calender{
+    background-color: var(--geel);
+    border-radius:27.5px;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding: 20px;
+}
+.month{
+    color:var(--donkerblauw);
+    font-size:44px;
+    margin:20px;
+}
+th{
+    font-size: 34px;
+    color:var(--donkerblauw);
+    width: 100px;
+    height:100px;
+}
+td{
+    vertical-align: text-top;
+    color:var(--donkerblauw);
+}
+
+.calender > table{
+    width:800px;
+    height:800px;
+    margin-bottom:20px;
+    /* border:1px solid var(--donkerblauw);; */
+}
+tr > td {
+    border:1px solid var(--donkerblauw);;
 }
 }
