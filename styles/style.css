@@ -185,6 +185,21 @@ footer > p{
     padding: 30px;
 }
 
+@media screen and (min-width: 845px){
+
+   /* Infobuttons */
+    .buttons{
+        display:flex;
+        justify-content: space-evenly;
+     }
+
+    /* footer */
+     #footer-flexbox{
+        display: flex;
+        justify-content: space-evenly;
+    } 
+}  
+
 @media screen and (min-width: 975px){
     
     /* header */
@@ -256,17 +271,4 @@ nav ul li:nth-child(12){
     flex-direction:column;
     row-gap: 35px
 }
-/* buttons/links */
-
- .buttons{
-    display:flex;
-    justify-content: space-evenly;
- }
- /* footer */
-
-#footer-flexbox{
-    display: flex;
-    justify-content: space-evenly;
-}
-
 }
