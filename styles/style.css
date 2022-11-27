@@ -20,16 +20,13 @@ nav {
     z-index:1;
     
 }
-.LogoViniMini {
+.Logo-ViniMini {
     width:141.5px;
     height:100px;
     margin-top:10px;
 }
-.winkelwagen{
+.shopping-cart{
     width:45px;
-}
-.menuhome{
-    width: 45px;
 }
 
 /* Navigatie */
@@ -72,7 +69,7 @@ h1 {
     font-weight: 700;
     color: var(--lichtblauw);
 }
-.welkomstbericht{
+.welcome-message{
     position:relative;
     margin-top: 150px;
 }
@@ -94,7 +91,7 @@ li{
 main{
     margin: 20px;
 }
-.notificatie{
+.notification{
     width: 100%;
     height: 200px;
     border-radius:27.5px;
@@ -106,7 +103,7 @@ main{
     row-gap: 35px
 }
 
-.notificatie > h2{
+.notification > h2{
     margin-top:30px;
     margin-left: 15px;
 }
@@ -116,10 +113,10 @@ main{
 h3{
    color: var(--lichtblauw);
 }
-.flexy{
+.flex-lists{
     text-align:center;
 }
-.beschrijving{
+.description{
     max-width: 238px;
     margin:auto;
     
@@ -130,7 +127,7 @@ h3{
     margin-top:10px;
     
 }
-.imginfo{
+.img-info{
     width:42px;
 }
 .buttons > ul > li{
@@ -141,7 +138,7 @@ h3{
 strong{
     color: var(--lichtblauw);
 }
-.infoknop{
+.info-button{
     border: 1px solid #72afa6;
     display:flex;
     justify-content:center;
@@ -153,7 +150,7 @@ strong{
     line-height: 22px;
     padding: 15px 30px;
 }
-.flexy > a{
+.flex-lists > a{
     display:flex;
     justify-content:center;
     margin-bottom:60px;  
@@ -174,12 +171,12 @@ a{
 h4{
     color: var(--lichtblauw);
 }
-#certifiedB{
+#certified-B{
     padding:0px 30px;
     margin-right: 80px;
     margin-bottom: 25px;
 }
-.footerul{
+.footer-ul{
     list-style: none;
     min-width: 195px;
     margin-bottom: 25px;
@@ -196,7 +193,7 @@ nav > ul > li > a{
 }
 
 /* Navigatie */
-.navpijltje{
+.nav-arrow{
     width:25px;
     height:19.2px;
 }
@@ -235,11 +232,11 @@ nav ul li:nth-child(12){
 }
 
 /* welkomstbericht */
-#desktopwelkom{
+#desktop-welcome{
     display:flex;
     margin-top: 180px;
 }
-.welkomstbericht{
+.welcome-message{
     position:relative;
     margin-top: 0px;
     margin-left: 30px;
@@ -248,7 +245,7 @@ nav ul li:nth-child(12){
 
 /* notificatieblok */
 
-.notificatie{
+.notification{
     width: 50%;
     height: 200px;
     border-radius:27.5px;
@@ -267,7 +264,7 @@ nav ul li:nth-child(12){
  }
  /* footer */
 
-#footerflex{
+#footer-flexbox{
     display: flex;
     justify-content: space-evenly;
 }
