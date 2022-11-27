@@ -115,6 +115,44 @@ main{
     margin-left: 15px;
 }
 
+/* kalender */
+
+.calender{
+    background-color: var(--geel);
+    border-radius:27.5px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding: 10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center; 
+}
+.month{
+    color:var(--donkerblauw);
+    font-size:24px;
+    margin:0px;
+}
+th{
+    font-size: 16px;
+    color:var(--donkerblauw);
+    width: 50px;
+    height:50px;
+}
+td{
+    vertical-align: text-top;
+    color:var(--donkerblauw);
+}
+
+.calender > table{
+    width:270px;
+    height:270px;
+    margin-bottom:20px;
+}
+tr > td {
+    border:1px solid var(--donkerblauw);;
+}
+
+
 /* buttons/links */
 
 h3{
@@ -205,6 +243,47 @@ footer > p{
         display: flex;
         justify-content: space-evenly;
     } 
+
+    /* kalender */
+
+.flexbox-calender{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+.calender{
+    background-color: var(--geel);
+    border-radius:27.5px;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding: 20px;
+}
+.month{
+    color:var(--donkerblauw);
+    font-size:44px;
+    margin:20px;
+}
+th{
+    font-size: 34px;
+    color:var(--donkerblauw);
+    width: 100px;
+    height:100px;
+}
+td{
+    vertical-align: text-top;
+    color:var(--donkerblauw);
+}
+
+.calender > table{
+    width:800px;
+    height:800px;
+    margin-bottom:20px;
+    /* border:1px solid var(--donkerblauw);; */
+}
+tr > td {
+    border:1px solid var(--donkerblauw);;
+}
 }  
 
 @media screen and (min-width: 975px){
@@ -290,46 +369,5 @@ nav ul li:nth-child(12){
     display:flex;
     flex-direction:column;
     row-gap: 35px
-}
-
-/* kalender */
-
-.flexbox-calender{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    
-}
-.calender{
-    background-color: var(--geel);
-    border-radius:27.5px;
-    margin-top:50px;
-    margin-bottom:50px;
-    padding: 20px;
-}
-.month{
-    color:var(--donkerblauw);
-    font-size:44px;
-    margin:20px;
-}
-th{
-    font-size: 34px;
-    color:var(--donkerblauw);
-    width: 100px;
-    height:100px;
-}
-td{
-    vertical-align: text-top;
-    color:var(--donkerblauw);
-}
-
-.calender > table{
-    width:800px;
-    height:800px;
-    margin-bottom:20px;
-    /* border:1px solid var(--donkerblauw);; */
-}
-tr > td {
-    border:1px solid var(--donkerblauw);;
 }
 }
