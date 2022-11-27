@@ -274,6 +274,10 @@ td{
     vertical-align: text-top;
     color:var(--donkerblauw);
 }
+td:hover{
+    background-color: #FAF6A8;
+    cursor:crosshair;
+}
 
 .calender > table{
     width:800px;
