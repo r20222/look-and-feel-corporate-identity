@@ -18,7 +18,9 @@ nav {
     top:0px;
     left:0px; 
     z-index:1;
-    
+}
+nav a{
+    text-decoration: none;
 }
 .Logo-ViniMini {
     width:141.5px;
@@ -164,16 +166,18 @@ h3{
 .description{
     max-width: 238px;
     margin:auto;
-    
+}
+.buttons{
+    margin-bottom: 130px;
 }
 .buttons > ul{
     list-style: none;
     margin-left:-40px;
     margin-top:10px;
-    
 }
 .img-info{
-    width:42px;
+    /* width:42px; */
+    height:42px;
 }
 .buttons > ul > li{
     margin-top:15px;
@@ -183,8 +187,9 @@ h3{
 strong{
     color: var(--lichtblauw);
 }
-.info-button{
+button{
     border: 1px solid #72afa6;
+    background-color: white;
     display:flex;
     justify-content:center;
     font-weight: 700;
@@ -194,21 +199,12 @@ strong{
     font-size: 12px;
     line-height: 22px;
     padding: 15px 30px;
+    margin:auto;
 }
-.flex-lists > a{
-    display:flex;
-    justify-content:center;
-    margin-bottom:60px;  
+button:hover{
+    background-color:var(--lichtblauw);
+    color:white;
 }
-.buttons > ul > a > li:hover{
-background-color:var(--lichtblauw);
-color:white;
-}
-a{
-    color:var(--lichtblauw);
-    text-decoration: none;
-}
-
 /* button kleur is niet accessible */
 
 /* footer */
