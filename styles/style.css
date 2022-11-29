@@ -120,7 +120,7 @@ main{
 /* kalender */
 
 .calender{
-    background-color: var(--geel);
+    background-color: white;
     border-radius:27.5px;
     margin-top:20px;
     margin-bottom:20px;
@@ -199,6 +199,7 @@ button{
     line-height: 22px;
     padding: 15px 30px;
     margin:auto;
+    transition-duration: 300ms;
 }
 button:hover{
     background-color:var(--lichtblauw);
@@ -248,7 +249,7 @@ footer > p{
     
 }
 .calender{
-    background-color: var(--geel);
+    background-color: white;
     border-radius:27.5px;
     margin-top:50px;
     margin-bottom:50px;
@@ -256,6 +257,7 @@ footer > p{
 }
 .month{
     color:var(--donkerblauw);
+    /* background-color: var(--lichtblauw); */
     font-size:44px;
     margin:20px;
 }
