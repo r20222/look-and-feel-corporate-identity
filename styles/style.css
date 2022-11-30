@@ -257,9 +257,9 @@ footer > p{
     tr > td {
         border:1px solid var(--donkerblauw);
     }
-    td:hover{
+    /* td:hover{
         background-color: var(--geel);
-    }
+    } */
     td > p{
         display:block;
         background-color: var(--geel);
