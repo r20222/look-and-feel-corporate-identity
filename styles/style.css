@@ -292,6 +292,7 @@ nav > ul > li > a{
 .nav-arrow{
     width:25px;
     height:19.2px;
+    margin-bottom:-4px;
 }
 nav ul li:nth-child(1){
     display:none;
