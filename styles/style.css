@@ -161,6 +161,7 @@ h3{
     margin:auto;
 }
 .buttons{
+    margin-top:100px;
     margin-bottom: 130px;
 }
 .buttons > ul{
