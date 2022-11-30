@@ -273,6 +273,7 @@ footer > p{
     .buttons{
         display:flex;
         justify-content: space-evenly;
+        margin-top:0px;
      }
 
     /* footer */
@@ -366,5 +367,10 @@ nav ul li:nth-child(12){
     display:flex;
     flex-direction:column;
     row-gap: 35px
+}
+
+/* knoppen */
+.buttons{
+    margin-top:0px;
 }
 }
