@@ -27,10 +27,11 @@ Deze webpagina hieronder hoort bij user-story #11: Als ouder wil ik bij het open
 Deze webpagina hieronder hoort bij user-story #12: Als ouder wil ik in een agenda overzicht krijgen, zodat ik weet op welke dag ik een supplement voor een allergie moet geven.
 
 ### Desktop versie #12:
-![image](https://user-images.githubusercontent.com/101579892/204149780-623a0edd-3bc7-4c15-b3db-e3ee6209130a.png)
+![image](https://user-images.githubusercontent.com/101579892/204783050-5318beae-81f0-41cb-8303-26c53616feec.png)
 
 ### Mobiele versie #12:
-![image](https://user-images.githubusercontent.com/101579892/204149750-28df7739-698e-4735-9019-ba1fac3a7b97.png)
+![image](https://user-images.githubusercontent.com/101579892/204783188-0c5c8880-3aa0-44dd-85fc-b35e932aede9.png)
+
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 [Vini Mini #11 & #12](https://r20222.github.io/look-and-feel-corporate-identity/)
