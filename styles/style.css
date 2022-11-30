@@ -223,6 +223,12 @@ footer > p{
 
 @media screen and (min-width: 750px){
 
+
+    /* buttons */
+.buttons{
+    margin-top:0px;
+}
+
     /* kalender */
 
     .calender{
@@ -251,17 +257,10 @@ footer > p{
         color:var(--donkerblauw);
         height:200px;
     }
-    /* .calender > table{
-        width:270px;
-        height:270px;
-        margin-bottom:20px;
-    } */
+    
     tr > td {
         border:1px solid var(--donkerblauw);
     }
-    /* td:hover{
-        background-color: var(--geel);
-    } */
     td > p{
         display:block;
         background-color: var(--geel);
