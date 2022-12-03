@@ -34,10 +34,15 @@ Deze webpagina hieronder hoort bij user-story #12: Als ouder wil ik in een agend
 
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
+
+De website is te bekijken op:
+
 [Vini Mini #11 & #12](https://r20222.github.io/look-and-feel-corporate-identity/)
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+
+Bij het maken van deze website heb ik rekening gehouden met de HTML semantiek en visual hiërarchie. Ik heb gebruik gemaakt in CSS van custom properties en CSS flexbox. Ik wilde de huisstijl van Vini Mini toepassen en heb hierbij gebruik gemaakt van onze gemaakte living-styleguide. Ook heb ik geprobeerd mijn CSS te structureren. De website heb ik responsive gemaakt met mediaqueries en door gebruik te maken van viewport width in de CSS. 
 
 ## Bronnen
 
