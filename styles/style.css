@@ -269,6 +269,12 @@ footer a{
         display:block;
         background-color: var(--geel);
     }
+
+    /* footer */
+    footer a{
+        text-decoration: none;
+        color: var(--donkerblauw);
+    }
 }
 
 @media screen and (min-width: 845px){
@@ -285,6 +291,10 @@ footer a{
         display: flex;
         justify-content: space-evenly;
     } 
+    footer a{
+        text-decoration: none;
+        color: var(--donkerblauw);
+    }
 }  
 
 @media screen and (min-width: 975px){
@@ -376,5 +386,11 @@ nav ul li:nth-child(12){
 /* knoppen */
 .buttons{
     margin-top:0px;
+}
+
+/* footer */
+footer a{
+    text-decoration: none;
+    color: var(--donkerblauw);
 }
 }
